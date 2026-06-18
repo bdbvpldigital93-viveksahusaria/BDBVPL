@@ -773,10 +773,10 @@ const page = () => {
               <h6 className="font-thin">Resource Manager</h6>
             </div>
           </div>
-          <div className="group flex flex-col justify-center items-center">
+          {/*<div className="group flex flex-col justify-center items-center">
             {/* Fixed size container to avoid layout shifting */}
-            <div className="relative flex items-center justify-center w-[250px] h-[250px] border rounded-full border-deepTeal group-hover:bg-deepTeal bg-skyBlue p-1 overflow-hidden">
-              {/* Animated Image */}
+          {/*  <div className="relative flex items-center justify-center w-[250px] h-[250px] border rounded-full border-deepTeal group-hover:bg-deepTeal bg-skyBlue p-1 overflow-hidden">
+              {/* Animated Image 
               <motion.div
                 className="rounded-full overflow-hidden"
                 initial={{ width: 200, height: 200 }}
@@ -793,7 +793,7 @@ const page = () => {
               </motion.div>
 
               {/* Animated Icon Div */}
-              <motion.div
+              {/* <motion.div
                 className="absolute right-2 space-y-7 text-white hidden group-hover:block"
                 initial={{ opacity: 0 }}
                 whileHover={{ opacity: 1 }}
@@ -809,7 +809,7 @@ const page = () => {
               <h5 className="font-bold">Mr. Budhram</h5>
               <h6 className="font-thin">Site Engineer</h6>
             </div>
-          </div>
+          </div>*/}
         </div>
       </section>
 

@@ -41,9 +41,9 @@ export function ClientCarousel() {
           <div className="p-1">
             <Card>
               <CardContent className="flex aspect-square items-center justify-center p-6">
-                <Link href={"https://www.shaktipumps.com/"}>
+                <Link href={"https://www.waaree.com/"}>
                   <Image
-                    src={"/images/shakti.png"}
+                    src={"/images/waaree.png"}
                     width={500}
                     height={500}
                     alt="img"

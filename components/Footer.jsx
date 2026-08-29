@@ -82,7 +82,7 @@ const Footer = () => {
           Company Regd. Add -
         </p>
         <p className="pText md:pTextLg pt-2 text-white/80">
-          2nd Floor Opp-Mathura Road Flyover,<br/>Near Aggarwal Dharmshala,Seekri,<br/>Ballabgarh,faridabad-121004(HR){" "}
+           Sahapur Khurd Road, Behind Balaji Dharm Kanta,<br/>Opposite Siwansh Metaalloys,Seekri,<br/>Ballabgarh,faridabad-121004(HR){" "}
         </p>
         <p className=" pt-2 lowercase pText md:pTextLg text-white/80 flex items-center">
           <MdEmail className="inline-flex size-6 mr-1" />

@@ -60,7 +60,9 @@ const ContactUs = () => {
             <h1 className="h1Text mt-2">Address</h1>
             <p className="pText">Company Regd. Add</p>
             <span className="pText">
-              F-12 Ground floorviswakarma colony,new delhi 110044(India)
+             Sahapur Khurd Road, Behind Balaji Dharm Kanta,
+             Opposite Siwansh Metaalloys,Seekri,
+             Ballabgarh,faridabad-121004(HR)
             </span>
           </span>
           <span className="bg-green rounded-md transform transition-transform duration-300 ease-in-out hover:scale-110">

@@ -747,7 +747,7 @@ const page = () => {
                 transition={{ duration: 0.5 }}
               >
                 <Image
-                  src={"/images/NIRMOHIT.png"}
+                  src={"/images/mohit.jpg.jpeg"}
                   width={215}
                   height={215}
                   alt="user"

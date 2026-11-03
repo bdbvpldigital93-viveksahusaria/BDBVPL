@@ -710,7 +710,7 @@ const page = () => {
                 transition={{ duration: 0.5 }}
               >
                 <Image
-                  src={"/images/Sumit.jpeg"}
+                  src={"/images/sumit.jpg.jpeg"}
                   width={215}
                   height={215}
                   alt="user"

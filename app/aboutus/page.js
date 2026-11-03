@@ -806,7 +806,7 @@ const page = () => {
               </motion.div>
             </div>
             <div className="text-center mt-2">
-              <h5 className="font-bold">Mr. Talwar</h5>
+              <h5 className="font-bold">Mr. Tarun Talwar</h5>
               <h6 className="font-thin">Site Engineer</h6>
             </div>
           </div>

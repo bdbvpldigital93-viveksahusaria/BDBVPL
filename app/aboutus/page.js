@@ -710,43 +710,6 @@ const page = () => {
                 transition={{ duration: 0.5 }}
               >
                 <Image
-                  src={"/images/sumit.jpg.jpeg"}
-                  width={215}
-                  height={215}
-                  alt="user"
-                  className="rounded-full"
-                />
-              </motion.div>
-
-              {/* Animated Icon Div */}
-              <motion.div
-                className="absolute right-2 space-y-7 text-white hidden group-hover:block"
-                initial={{ opacity: 0 }}
-                whileHover={{ opacity: 1 }}
-                whileInView={{ opacity: 1 }}
-                transition={{ duration: 0.5 }}
-              >
-                <FaFacebook className="-ml-1 size-6" />
-                <FaFacebook className="ml-3 size-6" />
-                <FaFacebook className="-ml-1 size-6" />
-              </motion.div>
-            </div>
-            <div className="text-center mt-2">
-              <h5 className="font-bold">Mr. Sumit</h5>
-              <h6 className="font-thin">District Sales Manager</h6>
-            </div>
-          </div>
-          <div className="group flex flex-col justify-center items-center">
-            {/* Fixed size container to avoid layout shifting */}
-            <div className="relative flex items-center justify-center w-[250px] h-[250px] border rounded-full border-deepTeal group-hover:bg-deepTeal bg-skyBlue p-1 overflow-hidden">
-              {/* Animated Image */}
-              <motion.div
-                className="rounded-full overflow-hidden"
-                initial={{ width: 200, height: 200 }}
-                whileHover={{ width: 185, height: 198 }}
-                transition={{ duration: 0.5 }}
-              >
-                <Image
                   src={"/images/mohit.jpg.jpeg"}
                   width={215}
                   height={215}
@@ -771,6 +734,43 @@ const page = () => {
             <div className="text-center mt-2">
               <h5 className="font-bold">Mr. Nirmohit</h5>
               <h6 className="font-thin">Resource Manager</h6>
+            </div>
+          </div>
+          <div className="group flex flex-col justify-center items-center">
+            {/* Fixed size container to avoid layout shifting */}
+            <div className="relative flex items-center justify-center w-[250px] h-[250px] border rounded-full border-deepTeal group-hover:bg-deepTeal bg-skyBlue p-1 overflow-hidden">
+              {/* Animated Image */}
+              <motion.div
+                className="rounded-full overflow-hidden"
+                initial={{ width: 200, height: 200 }}
+                whileHover={{ width: 185, height: 198 }}
+                transition={{ duration: 0.5 }}
+              >
+                <Image
+                  src={"/images/sumit.jpg.jpeg"}
+                  width={215}
+                  height={215}
+                  alt="user"
+                  className="rounded-full"
+                />
+              </motion.div>
+
+              {/* Animated Icon Div */}
+              <motion.div
+                className="absolute right-2 space-y-7 text-white hidden group-hover:block"
+                initial={{ opacity: 0 }}
+                whileHover={{ opacity: 1 }}
+                whileInView={{ opacity: 1 }}
+                transition={{ duration: 0.5 }}
+              >
+                <FaFacebook className="-ml-1 size-6" />
+                <FaFacebook className="ml-3 size-6" />
+                <FaFacebook className="-ml-1 size-6" />
+              </motion.div>
+            </div>
+            <div className="text-center mt-2">
+              <h5 className="font-bold">Mr. Sumit</h5>
+              <h6 className="font-thin">District Sales Manager</h6>
             </div>
           </div>
           <div className="group flex flex-col justify-center items-center">

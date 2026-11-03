@@ -784,7 +784,7 @@ const page = () => {
                 transition={{ duration: 0.5 }}
               >
                 <Image
-                  src={"/images/budhram1.jpg"}
+                  src={"/images/tarun.jpeg"}
                   width={215}
                   height={215}
                   alt="user"
@@ -806,7 +806,7 @@ const page = () => {
               </motion.div>
             </div>
             <div className="text-center mt-2">
-              <h5 className="font-bold">Mr. Budhram</h5>
+              <h5 className="font-bold">Mr. Talwar</h5>
               <h6 className="font-thin">Site Engineer</h6>
             </div>
           </div>
